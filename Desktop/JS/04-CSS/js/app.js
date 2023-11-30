@@ -3,6 +3,7 @@ const Yasmina = document.querySelector(".Yasmina");
 const btnColors = document.querySelectorAll(".color");
 const btnFond = document.querySelectorAll(".fond")
 
+const inputSize = document.getElementById("size")
 const selectFont = document.getElementById("selectFont")
 
 console.log(Yasmina);
@@ -30,8 +31,13 @@ btnFond.forEach((button) => {
 
 
 selectFont.onchange = function () {
-    console.log(selectFont.value)
+    console.log(selectFont.value);
     Yasmina.style.fontFamily = selectFont.value;
+};
+
+inputSize.onchange = function () {
+    console.log(inputSize.value);
+    Yasmina.style.fontSize = inputSize.value + "px";
 };
 
 
