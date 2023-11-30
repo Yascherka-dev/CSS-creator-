@@ -1,0 +1,21 @@
+.font-Dhurjati {
+    font-family: 'Dhurjati', sans-serif;
+}
+
+.font-FuzzyBubbles {
+    font-family: 'FuzzyBubbles', sans-serif;
+}
+
+.font-ShareTechMono {
+    font-family: 'ShareTechMono', monospace;
+}
+
+
+
+.Yasmina {
+    font-size: 26px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: grey;
+}
